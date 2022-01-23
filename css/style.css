@@ -214,8 +214,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
@@ -805,7 +805,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -813,14 +813,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .work .desc h3 {
   font-size: 20px;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.8s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
 }
 .work .desc span {
   display: block;
-  color: #999999;
+  color: #ffffff;
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -830,11 +830,12 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: #ffffff;
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    color: #ffffff;
   }
   .work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1364,6 +1365,10 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+#attendance_font {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
